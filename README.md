@@ -2,6 +2,7 @@
 GS-Calib: Automated Targetless LiDAR–Camera Calibration for Dynamic Construction Environments via Improved 3D Gaussian Splatting
 
 # Dataset
+```bash
 Dataset link is：https://pan.baidu.com/s/1lMjIKdS9B7hF4KHUrpmxDQ
 
 # Hardware Requirements
