@@ -25,6 +25,7 @@ CUDA SDK 11.8 for GPU support (use version 11.6 if you encounter issues with 11.
 C++ Compiler & CUDA SDK must be compatible.
 
 # Install COLMAP
+```bash
 The installation process is provided in this link：https://colmap.github.io/install.html
 
 Verify COLMAP Installation:
@@ -32,15 +33,18 @@ Verify COLMAP Installation:
 After installation, run COLMAP in the terminal:
 
 colmap
+```
 
 # Install 3DGS
+```bash
 The installation process is provided in this link：https://github.com/graphdeco-inria/gaussian-splatting
-
+```
 Running
 
 To run the optimizer, simply use
-
+```bash
 python train.py -s <path to COLMAP or NeRF Synthetic dataset>
+```
 
 # Install FAST-LIO2
 1、 Prerequisited
@@ -60,7 +64,7 @@ OpenCV>=4.2, Follow Opencv Installation.
 2.3 Sophus
 
 Sophus Installation for the non-templated/double-only version.
-
+```bash
 git clone https://github.com/strasdat/Sophus.git
 
 cd Sophus
@@ -72,19 +76,19 @@ mkdir build && cd build && cmake ..
 make
 
 sudo make install
-
+```
 2.4 Vikit
 
 Vikit contains camera models, some math and interpolation functions that we need. Vikit is a catkin project, therefore, download it into your catkin workspace source folder.
 
 Different from the one used in fast-livo1
-
+```bash
 cd catkin_ws/src
 
 git clone https://github.com/xuankuzcr/rpg_vikit.git 
-
-2. Build
-
+```
+ Build
+```bash
 Clone the repository and catkin_make:
 
 cd ~/catkin_ws/src
@@ -96,8 +100,8 @@ cd ../
 catkin_make
 
 source ~/catkin_ws/devel/setup.bash
-
-4. Run our examples
+```
+ Run our examples
 
 Download our collected rosbag files via OneDrive (FAST-LIVO2-Dataset).
 
