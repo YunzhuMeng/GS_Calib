@@ -105,9 +105,11 @@ source ~/catkin_ws/devel/setup.bash
 
 Download our collected rosbag files via OneDrive (FAST-LIVO2-Dataset).
 
+```bash
 roslaunch fast_livo mapping_avia.launch
 
 rosbag play YOUR_DOWNLOADED.bag
+```
 
 This configuration document includes the installation steps, environment setup, and dependency instructions for COLMAP, 3DGS, and FASTLIO2, and clearly outlines how to build the project using Conda and CMake.
 
